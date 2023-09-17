@@ -21,11 +21,6 @@ fetch("data.json")
 
         // Build category filter options
         const categorySelector = document.createElement("select");
-        const defaultCategoryOption = document.createElement("option");
-        defaultCategoryOption.value = "";
-        defaultCategoryOption.textContent = "All Categories";
-        categorySelector.appendChild(defaultCategoryOption);
-
         categoryFilter.forEach(category => {
             const option = document.createElement("option");
             option.value = category;
@@ -39,7 +34,7 @@ fetch("data.json")
             optionList.innerHTML = ""; // Clear existing options
 
             data.forEach(item => {
-                if (selectedCategory === "" || item.category === selectedCategory) {
+                if (item.category === selectedCategory) {
                     const option = document.createElement("option");
                     option.value = item.option;
                     option.textContent = item.option;
