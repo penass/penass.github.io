@@ -2,11 +2,12 @@
     {
         "option": "option1",
         "imageUrl": "image1.jpg",
-        "category": "Category 4"
+        "category": "Category A"
     },
     {
         "option": "option2",
-        "imageUrl": "image1.jpg",
-        "category": "Category 3"
+        "imageUrl": "image2.jpg",
+        "category": "Category B"
     },
+    // Add more entries
 ]
