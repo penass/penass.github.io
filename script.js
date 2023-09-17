@@ -62,4 +62,4 @@ fetch("data.json")
         // Initialize the displayed image on page load
         updateDisplayedImage();
     })
-    .catch(error => console.error("Error loading data:", error));
+   
