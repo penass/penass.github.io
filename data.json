@@ -1,0 +1,13 @@
+[
+    {
+        "option": "option1",
+        "imageUrl": "image2.jpg",
+        "category": "Category 4"
+    },
+    {
+        "option": "option2",
+        "imageUrl": "image1.jpg",
+        "category": "Category 3"
+    },
+    // Add more entries
+]

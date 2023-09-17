@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#imageForm {
+    text-align: center;
+    margin: 20px;
+}
+
+#imageContainer {
+    text-align: center;
+    margin: 20px;
+}
+
+#displayedImage {
+    max-width: 100%;
+    height: auto;
+}
